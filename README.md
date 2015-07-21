@@ -62,14 +62,11 @@ git commit -m "initial commit"
 heroku create -b https://github.com/kr/heroku-buildpack-go.git
 ```
 
-After the last line completes, an application name should be provided. It may look like something funky.. As you can see from the *html/client.html* file, the pubAddr variable is set to application_name.herokuapp.com where application_name was tranquil-gorge-4724 in my case.
-
-3) Take the application name given to you and change the pubAddr variable in *html/client.html* and comment out and replace the addr variable.
+3) Change the pubAddr variable in *html/client.html* and comment out and replace the addr variable.
 
 ```javascript
 // var addr = "localhost:8081"
-var pubAddr = "application_name.herokuapp.com"
-// or use: var pubAddr = document.domain;
+var pubAddr = document.domain;
 
 var conn = new Websocket("wss://" +  pubAddr + "/ws");
 ```
