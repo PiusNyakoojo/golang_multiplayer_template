@@ -1,7 +1,7 @@
 # golang_multiplayer_template
 
 This is a template for using the Go programming language and websockets to build realtime,
-browser-based, multiplayer experiences.
+browser-based, multiplayer experiences. The 3D graphics is associated with the three.js library.
 
 # Configuration Files
 
