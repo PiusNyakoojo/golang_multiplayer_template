@@ -1,3 +1,6 @@
+/*
+Package main implements a simple server with websockets.
+*/
 package main 
 
 import (
@@ -43,6 +46,7 @@ type Position struct {
 	R_Z float32
 }
 
+// 
 type Message struct {
 	Title string
 	Data Player
