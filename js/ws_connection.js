@@ -1,3 +1,4 @@
+// Setup environment
 var addr = "localhost:8081"; // when selected: wss -> ws
 var pubAddr = document.domain; // when selected: ws -> wss
 
